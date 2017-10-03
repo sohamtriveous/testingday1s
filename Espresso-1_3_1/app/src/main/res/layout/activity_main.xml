@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    tools:context="cc.soham.espresso_1_3_1.MainActivity">
+
+    <EditText
+        android:id="@+id/activity_main_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text|textEmailAddress"
+        android:hint="username" />
+
+    <EditText
+        android:id="@+id/activity_main_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/activity_main_submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="submit" />
+
+    <Button
+        android:id="@+id/activity_main_reset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="reset" />
+
+    <TextView
+        android:id="@+id/activity_main_state"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Please enter username and password" />
+
+</LinearLayout>
